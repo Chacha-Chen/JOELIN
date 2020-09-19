@@ -1,0 +1,57 @@
+
+
+* Event 1 | Positive
+
+#+begin_example
+    "part2-age.Response"           : ["Not Specified"],
+    "part2-close_contact.Response" : ["Not Specified"],
+    "part2-employer.Response"      : ["Not Specified"],
+    "part2-gender.Response"        : ["Not Specified"],
+    "part2-name.Response"          : ["Not Specified"],
+    "part2-recent_travel.Response" : ["Not Specified"],
+    "part2-relation.Response"      : ["Not Specified"],
+    "part2-when.Response"          : ["Not Specified"],
+    "part2-where.Response"         : ["Not Specified"]
+#+end_example
+    
+* Event 2 | Negative
+
+#+begin_example
+    "part2-age.Response"           : ["Not Specified"],
+    "part2-close_contact.Response" : ["Not Specified"],
+    "part2-gender.Response"        : ["Male"],
+    "part2-how_long.Response"      : ["Not Specified"],
+    "part2-name.Response"          : [[36, 41]],
+    "part2-relation.Response"      : ["Not Specified"],
+    "part2-when.Response"          : ["Not Specified"],
+    "part2-where.Response"         : ["Not Specified"]
+#+end_example
+
+* Event 3 | Can not test
+
+#+begin_example
+    "part2-relation.Response": ["Not Specified"],
+    "part2-symptoms.Response": ["Not Specified"],
+    "part2-name.Response": ["Not Specified"],
+    "part2-when.Response": ["Not Specified"],
+    "part2-where.Response": ["Not Specified"]
+#+end_example
+
+* Event 4 | Death
+
+#+begin_example
+    "part2-age.Response": ["Not Specified"],
+    "part2-name.Response": [[105, 151], [105, 118]],
+    "part2-relation.Response": ["Not Specified"],
+    "part2-symptoms.Response": ["Not Specified"],
+    "part2-when.Response": ["Not Specified"],
+    "part2-where.Response": [[155, 161]]
+#+end_example
+
+* Event 5 | Cure and prevention
+
+#+begin_example
+    "part2-opinion.Response": ["no_cure"],
+    "part2-what_cure.Response": ["Not Specified"],
+    "part2-who_cure.Response": ["Not Specified"]
+#+end_example
